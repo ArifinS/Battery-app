@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react"
 import { cn } from "@/lib/utils"
+import Image from "next/image" // Import Next.js Image component
 
 const advantages = [
   {
@@ -113,11 +114,13 @@ export default function FiveAdvantages() {
     if (currentAdvantage.layout === "image-left") {
       return (
         <div className="flex items-center gap-12">
-          <div className="flex-1">
-            <img
+          <div className="flex-1 relative h-80">
+            <Image
               src={currentAdvantage.image || "/placeholder.svg"}
               alt={currentAdvantage.heading}
-              className="w-full h-80 object-contain"
+              fill
+              style={{ objectFit: "contain" }}
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
           <div className="flex-1">
@@ -140,11 +143,13 @@ export default function FiveAdvantages() {
               </button>
             )}
           </div>
-          <div className="flex-1">
-            <img
+          <div className="flex-1 relative h-80">
+            <Image
               src={currentAdvantage.image || "/placeholder.svg"}
               alt={currentAdvantage.heading}
-              className="w-full h-80 object-contain"
+              fill
+              style={{ objectFit: "contain" }}
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>
@@ -156,10 +161,12 @@ export default function FiveAdvantages() {
       <>
         {/* Image Section */}
         <div className="relative h-96 bg-gradient-to-r from-blue-600 to-blue-800">
-          <img
+          <Image
             src={currentAdvantage.image || "/placeholder.svg"}
             alt="Five Advantages Background"
-            className="w-full h-full object-cover"
+            fill
+            style={{ objectFit: "cover" }}
+            sizes="100vw"
           />
 
           {/* Overlay Points */}

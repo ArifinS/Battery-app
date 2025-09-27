@@ -12,7 +12,7 @@ export default function ContactPage() {
         <div className="max-w-2xl w-full text-center mb-8 mt-8">
           <h1 className="text-3xl font-bold text-[#034897] mb-2">Get in Touch</h1>
           <p className="text-gray-600 mb-4">
-            We'd love to hear from you! Fill out the form below or reach us at <a href="mailto:info@batteryapp.com" className="text-[#0070f3] underline">info@batteryapp.com</a>
+            love to hear from you! Fill out the form below or reach us at <a href="mailto:info@batteryapp.com" className="text-[#0070f3] underline">info@batteryapp.com</a>
           </p>
           <p className="text-gray-500">Battery App, 123 Main Street, Your City, Country</p>
           <p className="text-gray-500">Phone: +1 234 567 8900</p>

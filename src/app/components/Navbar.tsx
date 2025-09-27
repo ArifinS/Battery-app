@@ -24,9 +24,9 @@ const menuItems = [
         description: "Meet the passionate individuals driving our mission.",
       },
       {
-        name: "Our Values",
-        href: "/about/our_values",
-        description: "Core principles that shape our culture and decisions.",
+        name: "Mission Vision",
+        href: "/about/mission",
+        description: "Our mission and vision define our purpose and aspirations, guiding every step toward creating lasting impact and growth.Core principles that shape our culture and decisions.",
       },
       {
         name: "History",
@@ -36,47 +36,44 @@ const menuItems = [
     ],
   },
   {
-    name: "Solutions",
-    dropdown: [
+    "name": "Solutions",
+    "dropdown": [
       {
-        name: "Passenger Vehicles",
-        href: "/solutions/battery_storage",
-        description: "Efficient energy storage for sustainable power management.",
+        "name": "Passenger Vehicles",
+        "href": "/solutions/passenger_vehicles",
+        "description": "Affordable mobility with efficient performance and minimal maintenance."
       },
       {
-        name: "Two Wheeler",
-        href: "/solutions/two_wheeler",
-        description: "Seamless solar energy solutions for homes and businesses.",
+        "name": "Two Wheeler",
+        "href": "/solutions/two_wheeler",
+        "description": "Smart mobility on two wheels—economical, reliable, and effortless."
       },
       {
-        name: "Commercial Vehicles",
-        href: "/solutions/commercial_vehicles",
-        description: "Fast and reliable electric vehicle charging infrastructure.",
+        "name": "Commercial Vehicles",
+        "href": "/solutions/commercial_vehicles",
+        "description": "Strong, reliable, and built to keep your operations moving forward with efficient fleets designed."
       },
       {
-        name: "Automobile Lifestyle",
-        href: "/solutions/automobile_lifestyle",
-        description: "Fast and reliable electric vehicle charging infrastructure.",
+        "name": "Automotive Lifestyle",
+        "href": "/solutions/automotive_lifestyle",
+        "description": "From custom designs to car events—connecting communities and celebrating automotive culture."
       },
       {
-        name: "Areomotion",
-        href: "/solutions/ev_charging",
-        description:
-          "Areomotion: Eco-friendly two-wheeler powered by clean energy, designed for sustainable and efficient urban mobility",
+        "name": "Aeromotion",
+        "href": "/solutions/aeromotion",
+        "description": "Elevating flight: Where reliability meets innovation and breakthrough thinking."
       },
       {
-        name: "Agricultural & Industial Transportation",
-        href: "/solutions/ev_charging",
-        description:
-          "Agricultural & Industrial Transportation: Eco-friendly two-wheeler powered by clean energy, designed for sustainable",
+        "name": "Agricultural & Industrial Transportation",
+        "href": "/solutions/agricultural_industrial",
+        "description": "Innovative mobility designed to move industries and harvest success."
       },
       {
-        name: "Merin & Transportation",
-        href: "/solutions/ev_charging",
-        description:
-          "Merin & Transportation: Eco-friendly two-wheeler powered by clean energy, designed for sustainable and efficient urban mobility.",
-      },
-    ],
+        "name": "Marine Transportation",
+        "href": "/solutions/marine_transportation",
+        "description": "Smart marine mobility built for efficient, low-maintenance voyages."
+      }
+    ]
   },
   { name: "Contact", href: "/contact" },
 ]

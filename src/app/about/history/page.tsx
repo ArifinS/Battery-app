@@ -3,10 +3,7 @@
 import React from "react";
 import MenuItem from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import CompanyProfile from "./CompanyProfile";
-import Overview from "./overview";
-import History from "./History";
-import TeamGrid from "./team";
+import WorkshopHistory from "./workshop-history";
 
 export default function CompanyProfilePage() {
   return (
@@ -15,12 +12,9 @@ export default function CompanyProfilePage() {
         <MenuItem />
       </header>
       <main>
-        <TeamGrid/>
-        <History/>
+        <WorkshopHistory/>
       </main>
-      <footer className="w-full flex justify-center">
         <Footer />
-      </footer>
     </div>
   );
 }

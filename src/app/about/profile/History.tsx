@@ -65,7 +65,7 @@ export default function History() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative group"
         >
-          <Swiper
+          <Swiper                                           
             slidesPerView={1}
             spaceBetween={32}
             modules={[Navigation, Pagination]}
