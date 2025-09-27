@@ -6,7 +6,7 @@ const newsData = [
     date: 'August 18, 2025',
     summary: 'A new battery technology promises to double the energy density and halve the charging time for electric vehicles.',
     link: '#',
-    image: '/news/battery-breakthrough.jpg',
+    image: '/images/company-profile/car.png',
     big: true,
   },
   {
@@ -14,14 +14,14 @@ const newsData = [
     date: 'August 10, 2025',
     summary: 'Cities are adopting smart grids that seamlessly integrate solar and battery storage for reliable green energy.',
     link: '#',
-    image: '/news/solar-grid.jpg',
+      image: '/images/company-profile/car.png',
   },
   {
     title: 'EV Charging Stations Expansion',
     date: 'August 2, 2025',
     summary: 'Major expansion of EV charging stations announced across Europe and North America.',
     link: '#',
-    image: '/news/ev-charging.jpg',
+      image: '/images/company-profile/car.png',
   },
 ];
 

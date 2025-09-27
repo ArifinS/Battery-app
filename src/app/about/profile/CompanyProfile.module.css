@@ -1,0 +1,84 @@
+/* components/CompanyProfile.module.css */
+.companyProfile {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  margin: 0;
+}
+
+.buildingImage {
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  width: 100vw !important;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.breadcrumb {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #fff;
+}
+
+.breadcrumb a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb span {
+  margin: 0 0.5rem;
+}
+
+.overview {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f0f4f8;
+}
+
+.overview h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.overview p {
+  font-size: 1.125rem;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}

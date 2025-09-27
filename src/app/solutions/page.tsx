@@ -1,7 +1,7 @@
 import React from "react";
 import MenuItem from "../components/Navbar";
 import Footer from "../components/Footer";
-import BatteryStorageHero from "./battery_storage/hero";
+import BatteryStorageHero from "./battery_storage/five-advantages";
 import SolarIntegrationHero from "./solar_integration/hero";
 
 export default function SolutionsPage() {
